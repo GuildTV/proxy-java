@@ -78,6 +78,7 @@ public class ProxyParent {
 			pf.setProgress(sum);
 			if(sum == 100 && !shown) {
 				JOptionPane.showMessageDialog(pf, "Sent to Compressor.", "Sent to Compressor", JOptionPane.INFORMATION_MESSAGE);
+				shown = true;
 			}
 		}
 	}
